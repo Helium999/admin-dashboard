@@ -28,3 +28,16 @@ body {
 .main-area {
     grid-area: 3/2/-1/-1
 }
+
+.main-area {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+    grid-column: 1/-2;
+}
+
+.misc {
+    grid-column: 2/-1;
+}
