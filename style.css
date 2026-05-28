@@ -127,6 +127,12 @@ body {
 .header svg {
     display: block;
 
+    height: 100%;
+}
+
+.svg-magnify,
+.svg-bell,
+.svg-user {
     height: 50%;
 }
 
