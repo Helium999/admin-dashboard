@@ -151,7 +151,7 @@ body {
 
 .svg-user-header {
     margin-right: -12px;
-    fill: rgb(25, 146, 212);
+    fill: hsl(48, 96%, 50%);
 }
 
 .header > input[type="search"] {
@@ -199,7 +199,7 @@ body {
 }
 
 .svg-user-nav {
-    fill: rgb(25, 146, 212);
+    fill: hsl(48, 96%, 50%);
 
     height: 60%;
 
