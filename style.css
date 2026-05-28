@@ -18,7 +18,7 @@ body {
     display: grid;
 
     grid-template-columns: 260px 1fr;
-    grid-template-rows: 80px 80px 1fr;
+    grid-template-rows: 60px 100px 1fr;
 
     grid-template-areas:
         "sidebar header"
@@ -119,6 +119,15 @@ body {
     background-color: white;
 
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    align-items: center;
+}
+
+.header svg {
+    display: block;
+
+    height: 50%;
 }
 
 .nav {
