@@ -138,7 +138,7 @@ body {
 
 .svg-magnify,
 .svg-bell,
-.svg-user {
+.svg-user-header {
     height: 50%;
 }
 
@@ -147,7 +147,7 @@ body {
     margin-right: 42px;
 }
 
-.svg-user {
+.svg-user-header {
     margin-right: -12px;
     fill: rgb(25, 146, 212);
 }
