@@ -83,18 +83,24 @@ body {
 
 .lists {
     width: 100%;
+    height: 100%;
+    position: relative;
 }
 
-.sidebar-list-1 {
+.sidebar-list-1,
+.sidebar-list-2 {
     list-style: none;
 
     display: flex;
     flex-direction: column;
 
     gap: 24px;
+
+    padding: 12px;
 }
 
-.sidebar-list-1 > li {
+.sidebar-list-1 > li,
+.sidebar-list-2 > li {
     color: white;
 
     font-size: 1.1rem;
@@ -103,7 +109,12 @@ body {
     cursor: pointer;
 }
 
-/* HEADER */
+.sidebar-list-2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 .header {
     background-color: white;
 
