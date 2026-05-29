@@ -282,7 +282,7 @@ body {
     width: 100%;
 }
 
-.projects > p {
+.projects > h3 {
     margin-left: 12px;
     font-size: large;
     font-weight: 600;
