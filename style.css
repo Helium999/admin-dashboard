@@ -310,6 +310,10 @@ body {
     display: none;
 }
 
+.projects-grid-container > card:hover {
+    cursor: pointer;
+}
+
 .projects-grid-container > card p {
     letter-spacing: 0px;
     font-size: small;
