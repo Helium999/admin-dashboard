@@ -294,7 +294,7 @@ body {
     background-color: white;
     border-radius: 10px;
     border-left: 8px solid hsl(48, 96%, 50%);
-    padding: 10px;
+    padding: 16px;
 
 
     width: 250px;
@@ -303,6 +303,11 @@ body {
     line-height: 14px;
 
     overflow-y: scroll;
+}
+
+.projects-grid-container > card::-webkit-scrollbar {
+    scrollbar-width: none;
+    display: none;
 }
 
 .projects-grid-container > card p {
