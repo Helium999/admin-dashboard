@@ -293,9 +293,23 @@ body {
 
     background-color: white;
     border-radius: 10px;
+    border-left: 8px solid hsl(48, 96%, 50%);
+    padding: 10px;
+
 
     width: 250px;
     height: 150px;
+
+    line-height: 14px;
+
+    overflow-y: scroll;
+}
+
+.projects-grid-container > card p {
+    letter-spacing: 0px;
+    font-size: small;
+    font-weight: 100;
+    color: rgb(85, 85, 85);
 }
 
 .projects-grid-container {
